@@ -1,0 +1,36 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: white;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.modelBox {
+  width: 500px;
+  height: 500px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .modelBox {
+    width: 300px;
+    height: 300px;
+  }
+}
