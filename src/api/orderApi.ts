@@ -1,6 +1,6 @@
 import type { OrderRequest, OrderResponse } from "../types/order";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8080/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "https://seven-eleven-api-e318.onrender.com/api";
 
 export async function createOrder(order: OrderRequest): Promise<OrderResponse> {
   const response = await fetch(`${API_BASE_URL}/orders`, {
