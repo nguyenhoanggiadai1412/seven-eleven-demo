@@ -50,6 +50,8 @@ export default function ModelViewer({ modelUrl }: ModelViewerProps) {
       <OrbitControls
         enableZoom={false}
         enablePan={false}
+        autoRotate
+        autoRotateSpeed={8}
         minPolarAngle={Math.PI / 2}
         maxPolarAngle={Math.PI / 2}
       />

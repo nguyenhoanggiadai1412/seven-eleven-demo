@@ -6,7 +6,7 @@ export interface OrderItemRequest {
 export interface OrderRequest {
   customerName: string;
   phone: string;
-  address: string;
+  address: string;  
   note: string;
   items: OrderItemRequest[];
 }

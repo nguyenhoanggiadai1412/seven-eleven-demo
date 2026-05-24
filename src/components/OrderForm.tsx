@@ -31,7 +31,7 @@ export default function OrderForm({
           type="text"
           value={values.customerName}
           onChange={(event) => onChange("customerName", event.target.value)}
-          placeholder="Nguyen Van A"
+          placeholder="Customer name..."
         />
       </label>
 
@@ -41,7 +41,7 @@ export default function OrderForm({
           type="tel"
           value={values.phone}
           onChange={(event) => onChange("phone", event.target.value)}
-          placeholder="0909123456"
+          placeholder="Phone number..."
         />
       </label>
 
