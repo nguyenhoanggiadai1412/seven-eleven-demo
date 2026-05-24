@@ -6,9 +6,6 @@
   import ProductCard from "../../components/ProductCard";
   import type { CartItem as CartItemType, Product } from "../../types/product";
   import "./UserOrderPage.css";
-  import BlurText from "../../components/common/BlurText/BlurText";
-  import ModelViewr from "../../components/common/ModelViewer";
-  import seveneleven from "../../assets/seven11new.glb";
 import GradientText from "../../components/common/GradientText/GradientText";
 
   const initialFormValues: OrderFormValues = {
